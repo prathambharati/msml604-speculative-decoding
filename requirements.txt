@@ -1,0 +1,19 @@
+# Core scientific stack
+numpy>=1.24
+scipy>=1.10
+pandas>=2.0
+matplotlib>=3.7
+
+# Optimization
+cvxpy>=1.4
+botorch>=0.10
+gpytorch>=1.11
+
+# LLM inference (only needed for data collection on an A100)
+torch>=2.1
+transformers>=4.40
+accelerate>=0.25
+
+# Notebooks
+jupyter>=1.0
+notebook>=7.0
